@@ -16,7 +16,7 @@ def get_m4a():
         return jsonify({"error": "No videoID provided"}), 400
     
     # Target URL
-    url = f"https://video.genyt.net/{ytvideo_id}"
+    url = f"http://127.0.0.1:8080/https://video.genyt.net/{ytvideo_id}"
     
     # Headers to simulate a real browser request
     headers = {
