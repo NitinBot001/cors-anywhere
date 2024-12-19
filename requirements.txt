@@ -1,3 +1,4 @@
+spotdl
 flask
 flask-cors
 bs4
